@@ -1,0 +1,23 @@
+# Data files
+*.csv
+*.zip
+*.parquet
+*.pkl
+*.h5
+eth_usd_*.csv
+dune_*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Virtual env
+venv/
+env/
+.venv/
+ml/   # if you don't want to commit the whole conda env
+
+# OS
+.DS_Store
+Thumbs.db
